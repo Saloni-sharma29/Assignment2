@@ -32,8 +32,10 @@ for i in range(num):
 for i in range(num):
     print(" {})  ({}  , {})  "  .format(i+1,first[i+1], second[i+1]) )
 
-
-Output:
+for k in rolls:
+    print('%d - %d %.2f%%' %(k,rolls[k],float(rolls[k])/36))
+    
+Output
     Sample Space of rolling 2 dice:
 [1][1]
 [1][2]
@@ -93,6 +95,3 @@ How many rolls you want 10
 10 - 0 =0.00%
 11 - 0 =0.00%
 12 - 0 =0.00%
-
-for k in rolls:
-    print('%d - %d %.2f%%' %(k,rolls[k],float(rolls[k])/36))
